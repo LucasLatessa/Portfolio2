@@ -8,14 +8,6 @@
 .navbar {
   background-color: black;
 }
-.myForm {
-  padding: 10px;
-  border: 1px solid #eee;
-  margin: 10px;
-  width: 90%;
-  border-radius: 3%;
-  margin: auto;
-}
 
 .red {
   color: red;
