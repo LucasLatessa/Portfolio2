@@ -1,777 +1,550 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="icon" type="image/png" href="imagenes/iconoWeb.png" />
-    <title>Portfolio-Lucas Latessa</title>
 
-    <!-- importamos el archivo .css-->
-    <link href="index.css" rel="stylesheet" type="text/css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" type="image/png" href="imagenes/iconoWeb.png" />
+  <title>Portfolio-Lucas Latessa</title>
 
-    <!-- importamos la libreria animate -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+  <!-- importamos el archivo .css-->
+  <link href="index.css" rel="stylesheet" type="text/css" />
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
+  <!-- importamos la libreria animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <!-- importamos los links necesarios para utilizar bootstrap-->
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
 
-    <!-- importamos la libreria para animaciones -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  </head>
+  <!-- importamos los links necesarios para utilizar bootstrap-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
-  <body id="page-top">
-    <div id="fondo">
-      <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container">
-          <a class="navbar-brand js-scroll-trigger font-bold text-info"
-            >PORTFOLIO</a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarResponse"
-            aria-controls="navbarResponse"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- importamos la libreria para animaciones -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
 
-          <div class="collapse navbar-collapse" id="navbarResponse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link js-scroll-trigger lead" href="#sobremi"
-                  >Sobre mi</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger lead" href="#proyectos"
-                  >Proyectos</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger lead" href="#certificados"
-                  >Certificados</a
-                >
-              </li>
+<body id="page-top">
+  <div id="fondo">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger font-bold text-info">PORTFOLIO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponse"
+          aria-controls="navbarResponse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger lead" href="#educacion"
-                  >Educacion</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger lead" href="#experiencia"
-                  >Experiencia</a
-                >
-              </li>
+        <div class="collapse navbar-collapse" id="navbarResponse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link js-scroll-trigger lead" href="#sobremi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger lead" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger lead" href="#certificados">Certificados</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link js-scroll-trigger lead" href="#contacto"
-                  >Contacto</a
-                >
-              </li>
-            </ul>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger lead" href="#educacion">Educacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger lead" href="#experiencia">Experiencia</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger lead" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header content">
+      <div class="header-video">
+        <video src="imagenes/fondo.mp4" autoplay loop muted></video>
+      </div>
+      <div class="header-overlay"></div>
+      <div class="header-content">
+        <div class="main-container">
+          <p>Hola</p>
+          <div class="typewriter-text">
+            <p>Soy <strong>Lucas Latessa</strong></p>
           </div>
         </div>
-      </nav>
+      </div>
+    </header>
 
-      <header class="header content">
-        <div class="header-video">
-          <video src="imagenes/fondo.mp4" autoplay loop muted></video>
-        </div>
-        <div class="header-overlay"></div>
-        <div class="header-content">
-          <div class="main-container">
-            <p>Hola</p>
-            <div class="typewriter-text">
-              <p>Soy <strong>Lucas Latessa</strong></p>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <section id="sobremi" class="py-5">
-        <div class="container">
-          <div class="col-lg-11 mx-auto" id="borde">
-            <div style="max-width: 100%">
-              <br />
-              <h2
-                class="font-italic ml-2"
-                id="fuenteTitulos"
-                class="lang"
-                key="tituloSeccion1"
-              >
-                Sobre Mí
-              </h2>
-              <div class="row no-gutters">
-                <div class="col-md-4">
-                  <img
-                    src="imagenes/Foto_perfil.jpg"
-                    class="card-img"
-                    id="photo"
-                    data-aos="fade-right"
-                  />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body text-justify">
-                    <p class=" text-justify ">
-                      Mi nombre es Lucas Latessa y actualmente tengo 22 años.
-                      Vivo en la ciudad de Chivilcoy, Buenos Aires, Argentina.
-                      Estudiante de 5to año de la carrera Licenciatura en
-                      Sistemas de Información. Cuento con sólida formación en
-                      análisis, diseño y desarrollo de software. Tengo
-                      experiencia en el relevamiento de requerimientos, modelado
-                      de sistemas y desarrollo de aplicaciones tanto web como de
-                      escritorio. Poseo habilidades en redes informáticas, bases
-                      de datos y metodologías ágiles, lo que me permite trabajar
-                      en entornos dinámicos y colaborativos.<br> No busco solo escribir código: quiero entender 
-                      problemas reales y resolverlos con soluciones claras, eficientes y 
-                      mantenibles. Me formé en sistemas, pero mi mejor aprendizaje vino de 
-                      cada proyecto, donde tuve que adquirir nuevos conocimientos para que 
-                      las soluciones funcionen correctamente. No me interesa saberlo todo, 
-                      sino saber buscar, pensar y construir. Busco incorporarme a un equipo 
-                      donde pueda aportar soluciones innovadoras y seguir aprendiendo mientras 
-                      contribuyo con compromiso al crecimiento de la organización.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="container">
-                <div class="row">
-                  <div class="col mx-auto m-0" id="herramientas">
-                    <h4 class="text-info">Stack Tecnológico:</h4>
-                    <div class="container">
-                      <ul class="list-group list-group-flush ml-2" id="items">
-                        <li class="list-group-item" id="fondo">
-                          <strong>Lenguajes de Programación:</strong>
-                          Python, JavaScript, Java, HTML & CSS , SQL, Pascal.
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          <strong>Frameworks:</strong>
-                          Django, React, Flask, Spring.
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          <strong>Software y herramientas:</strong>
-                          Git & GitHub, Docker, Patrones de Diseño de Software,
-                          MySQL, PostgreSQL, NoSQL, Postman, Figma, Trello,
-                          Discord.
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          <strong>Metodologías Ágiles:</strong>
-                          SCRUM, Kanban.
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          <strong>Sistemas Operativos:</strong>
-                          Linux, Windows.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div class="col mx-auto m-0" id="habilidades">
-                    <h4 class="text-info">Habilidades y Competencias:</h4>
-                    <div class="container">
-                      <ul class="list-group list-group-flush ml-2" id="items">
-                        <li class="list-group-item" id="fondo">
-                          <strong>Análisis de Sistemas:</strong>
-                          Recolección de requerimientos, diseño de software.
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          <strong>Modelado de Datos:</strong>
-                          Diagramas entidad-relación, UML.
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          <strong>Desarrollo de Software:</strong>
-                          Aplicación de patrones de diseño en el desarrollo.
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          Capacidad para trabajo en equipo
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          Capacidad para integración y comunicación
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          Resolución de problemas
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          Aprendizaje constante
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          Autodisciplina
-                        </li>
-                        <li class="list-group-item" id="fondo">Compromiso</li>
-                        <li class="list-group-item" id="fondo">
-                          Habilidades de Liderazgo y Comunicación
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          <strong>Otros Conocimientos:</strong>
-                          Economía/contabilidad
-                        </li>
-                        <li class="list-group-item" id="fondo">
-                          <strong>Idiomas:</strong> Inglés Escrito (Intermedio),
-                          Inglés Oral (Básico)
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="proyectos" class="py-5">
-        <div class="container">
-          <div class="col-lg-11 mx-auto" id="borde">
+    <section id="sobremi" class="py-5">
+      <div class="container">
+        <div class="col-lg-11 mx-auto" id="borde">
+          <div style="max-width: 100%">
             <br />
-            <h2
-              class="font-italic ml-2"
-              id="fuenteTitulos"
-              class="lang"
-              key="tituloSeccion2"
-            >
-              Proyectos Personales
+            <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion1">
+              Sobre Mí
             </h2>
-            <br />
-            <div id="proyectos">
-              <!-- proyecto CarShare en React-->
-              <div id="proyecto">
-                <div>
-                  <h5>CarShare proyecto personal</h5>
-                  <p class="lead text-left">
-                     Diseñé y desarrollé una aplicación web que permite a los usuarios ofrecer o buscar viajes para compartir gastos de transporte, 
-                     promoviendo una movilidad más asequible y sostenible. <br>
-                     Implementé autenticación segura de usuarios utilizando <strong>Auth0</strong> y geolocalización con <strong>Maps JavaScript API</strong> para visualizar rutas y ubicaciones. 
-                     El backend fue desarrollado con <strong>Django (Python)</strong> y la interfaz de usuario con <strong>React (JavaScript)</strong>, garantizando una experiencia fluida y moderna.<br>
-                     Este proyecto refleja mi capacidad para crear soluciones funcionales desde cero, integrando múltiples servicios externos y pensando en la experiencia del usuario desde una perspectiva social y tecnológica.
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="imagenes/Foto_perfil.jpg" class="card-img" id="photo" data-aos="fade-right" />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body text-justify">
+                  <p class=" text-justify ">
+                    Mi nombre es Lucas Latessa y actualmente tengo 22 años.
+                    Vivo en la ciudad de Chivilcoy, Buenos Aires, Argentina.
+                    Estudiante de 5to año de la carrera Licenciatura en
+                    Sistemas de Información. Cuento con sólida formación en
+                    análisis, diseño y desarrollo de software. Tengo
+                    experiencia en el relevamiento de requerimientos, modelado
+                    de sistemas y desarrollo de aplicaciones tanto web como de
+                    escritorio. Poseo habilidades en redes informáticas, bases
+                    de datos y metodologías ágiles, lo que me permite trabajar
+                    en entornos dinámicos y colaborativos.<br> No busco solo escribir código: quiero entender
+                    problemas reales y resolverlos con soluciones claras, eficientes y
+                    mantenibles. Me formé en sistemas, pero mi mejor aprendizaje vino de
+                    cada proyecto, donde tuve que adquirir nuevos conocimientos para que
+                    las soluciones funcionen correctamente. No me interesa saberlo todo,
+                    sino saber buscar, pensar y construir. Busco incorporarme a un equipo
+                    donde pueda aportar soluciones innovadoras y seguir aprendiendo mientras
+                    contribuyo con compromiso al crecimiento de la organización.
                   </p>
                 </div>
-                <div class="col-md-15 text-center">
-                  <a
-                    _ngcontent-paa-c7=""
-                    target="_blank"
-                    id="botonProyecto"
-                    href="https://carsharee.vercel.app/"
-                  >
-                    <button
-                      _ngcontent-paa-c7=""
-                      type="button"
-                      class="btn btn-outline-info btn-sm"
-                    >
-                      Ver web
-                    </button></a
-                  >
-                  <br />
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col mx-auto m-0" id="herramientas">
+                  <h4 class="text-info">Stack Tecnológico:</h4>
+                  <div class="container">
+                    <ul class="list-group list-group-flush ml-2" id="items">
+                      <li class="list-group-item" id="fondo">
+                        <strong>Lenguajes de Programación:</strong>
+                        Python, JavaScript, Java, HTML & CSS , SQL, Pascal.
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        <strong>Frameworks:</strong>
+                        Django, React, Flask, Spring.
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        <strong>Software y herramientas:</strong>
+                        Git & GitHub, Docker, Patrones de Diseño de Software,
+                        MySQL, PostgreSQL, NoSQL, Postman, Figma, Trello,
+                        Discord.
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        <strong>Metodologías Ágiles:</strong>
+                        SCRUM, Kanban.
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        <strong>Sistemas Operativos:</strong>
+                        Linux, Windows.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col mx-auto m-0" id="habilidades">
+                  <h4 class="text-info">Habilidades y Competencias:</h4>
+                  <div class="container">
+                    <ul class="list-group list-group-flush ml-2" id="items">
+                      <li class="list-group-item" id="fondo">
+                        <strong>Análisis de Sistemas:</strong>
+                        Recolección de requerimientos, diseño de software.
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        <strong>Modelado de Datos:</strong>
+                        Diagramas entidad-relación, UML.
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        <strong>Desarrollo de Software:</strong>
+                        Aplicación de patrones de diseño en el desarrollo.
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        Capacidad para trabajo en equipo
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        Capacidad para integración y comunicación
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        Resolución de problemas
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        Aprendizaje constante
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        Autodisciplina
+                      </li>
+                      <li class="list-group-item" id="fondo">Compromiso</li>
+                      <li class="list-group-item" id="fondo">
+                        Habilidades de Liderazgo y Comunicación
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        <strong>Otros Conocimientos:</strong>
+                        Economía/contabilidad
+                      </li>
+                      <li class="list-group-item" id="fondo">
+                        <strong>Idiomas:</strong> Inglés Escrito (Intermedio),
+                        Inglés Oral (Básico)
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-              <!-- proyecto truco en Java-->
-              <div id="proyecto">
-                <div>
-                  <h5>Juego truco en Java</h5>
-                  <p class="lead text-left">
-                    Implementación del juego Truco en <strong>Java</strong>, utilizando <strong>RMI</strong>
-                    (Remote Method Invocation) para la comunicación entre
-                    cliente y servidor. La arquitectura sigue el patrón <strong>MVC</strong>
-                    (Modelo-Vista-Controlador), permitiendo una estructura clara
-                    y modular. Además, se emplea el patrón Observer para
-                    gestionar la interacción entre los componentes del sistema.
-                  </p>
-                </div>
-                <div class="col-md-15 text-center">
-                  <a
-                    href="https://youtu.be/WXbSqakTXZ4"
-                    target="_blank"
-                    id="botonProyecto"
-                  >
-                    <button
-                      type="button"
-                      type="button"
-                      class="btn btn-outline-info btn-sm"
-                    >
-                      Ver demo
-                    </button>
-                  </a>
-                  <a
-                    _ngcontent-paa-c7=""
-                    target="_blank"
-                    id="botonProyecto"
-                    href="https://github.com/LucasLatessa/Truco-java-POO-"
-                  >
-                    <button
-                      _ngcontent-paa-c7=""
-                      type="button"
-                      class="btn btn-outline-info btn-sm"
-                    >
-                      Ver Repositorio
-                    </button></a
-                  >
-                </div>
-              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-              <!-- proyecto codigo Pascal -->
-              <div id="proyecto">
-                <div>
-                  <h5>Demostración de código</h5>
-                  <p class="lead text-left">
-                    Programa que resuelve serie de Fibonacci de un número N
-                  </p>
-                </div>
-                <div class="col-md-15 text-center">
-                  <a
-                    _ngcontent-paa-c7=""
-                    target="_blank"
-                    id="botonProyecto"
-                    href="https://lucaslatessa.github.io/Fibonacci/"
-                  >
-                    <button
-                      _ngcontent-paa-c7=""
-                      type="button"
-                      class="btn btn-outline-info btn-sm"
-                    >
-                      Ver web
-                    </button></a
-                  >
-                </div>
+    <section id="proyectos" class="py-5">
+      <div class="container">
+        <div class="col-lg-11 mx-auto" id="borde">
+          <br />
+          <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion2">
+            Proyectos Personales
+          </h2>
+          <br />
+          <div id="proyectos">
+            <!-- proyecto CarShare en React-->
+            <div id="proyecto">
+              <div>
+                <h5>CarShare proyecto personal</h5>
+                <p class="lead text-left">
+                  Diseñé y desarrollé una aplicación web que permite a los usuarios ofrecer o buscar viajes para
+                  compartir gastos de transporte,
+                  promoviendo una movilidad más asequible y sostenible. <br>
+                  Implementé autenticación segura de usuarios utilizando <strong>Auth0</strong> y geolocalización con
+                  <strong>Maps JavaScript API</strong> para visualizar rutas y ubicaciones.
+                  El backend fue desarrollado con <strong>Django (Python)</strong> y la interfaz de usuario con
+                  <strong>React (JavaScript)</strong>, garantizando una experiencia fluida y moderna.<br>
+                  Este proyecto refleja mi capacidad para crear soluciones funcionales desde cero, integrando múltiples
+                  servicios externos y pensando en la experiencia del usuario desde una perspectiva social y
+                  tecnológica.
+                </p>
+              </div>
+              <div class="col-md-15 text-center">
+                <a _ngcontent-paa-c7="" target="_blank" id="botonProyecto" href="https://carsharee.vercel.app/">
+                  <button _ngcontent-paa-c7="" type="button" class="btn btn-outline-info btn-sm">
+                    Ver web
+                  </button></a>
                 <br />
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="certificados" class="py-5">
-        <div class="container">
-          <div class="col-lg-11 mx-auto" id="borde">
-            <br />
-            <h2
-              class="font-italic ml-2"
-              id="fuenteTitulos"
-              class="lang"
-              key="tituloSeccion2"
-            >
-              Certificados
-            </h2>
-            <br />
-            <div class="row">
-              <div class="container">
-                <div class="container">
-                  <ul _ngcontent-paa-c8="" id="items">
-                    <li _ngcontent-paa-c8="">Perfil Web Full Stack Junior</li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_YoProgramo.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                    <li _ngcontent-paa-c8="" class="mt-2">
-                      Curso de Spring Framework y Spring Boot
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_Spring.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                    <li _ngcontent-paa-c8="" class="mt-2">
-                      Curso Profesional de Docker
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_Docker.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                    <li _ngcontent-paa-c8="" class="mt-2">
-                      Curso Profesional de React
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_React.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                    <li _ngcontent-paa-c8="" class="mt-2">
-                      Curso Profesional de Laravel
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_Laravel.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                    <li _ngcontent-paa-c8="" class="mt-2">
-                      Curso Placas Arduino
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_Arduino.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                    <li _ngcontent-paa-c8="" class="mt-2">
-                      Ingles Elemental (Nivel MCRL: A1+)
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Ingles_Elemental.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                    <li _ngcontent-paa-c8="" class="mt-2">
-                      Introducción a las Técnicas de Desarrollo Dirigido por
-                      Pruebas
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_Introducción_a_TDD.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                    <li _ngcontent-paa-c8="">
-                      Una experiencia con Internet de las Cosas y el protocolo
-                      MQTT
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_Una_experiencia_con_Internet.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-
-                    <li _ngcontent-paa-c8="" class="mt-2">
-                      Análisis Automático de redes sociales
-                    </li>
-                    <a
-                      _ngcontent-paa-c8=""
-                      target="_blank"
-                      href="certificados/Certificado_Análisis_Automático_de_redes_sociales.pdf"
-                    >
-                      <button
-                        _ngcontent-paa-c8=""
-                        type="button"
-                        class="btn btn-outline-info btn-sm"
-                      >
-                        Ver certificado
-                      </button></a
-                    >
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="educacion" class="py-5">
-        <div class="container">
-          <div class="col-lg-11 mx-auto" id="borde">
-            <br />
-            <h2
-              class="font-italic ml-2"
-              id="fuenteTitulos"
-              class="lang"
-              key="tituloSeccion3"
-            >
-              Educacion
-            </h2>
-            <br />
-            <div class="container">
-              <h5>Bachiller en economía y administración(2014-2020)</h5>
-              <p class="lead text-justify">
-                Estudios a nivel secundario realizados en el Instituto Integral
-                Católico, Chivilcoy, Buenos Aires, Argentina.
-              </p>
-            </div>
-            <div class="container">
-              <h5>Licenciatura en Sistemas de Información (2021-<span id="currentYear"></span>)</h5>
-              <p class="lead text-justify">
-                Actualmente estudio en la Universidad Nacional de Lujan.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="experiencia" class="py-5">
-        <div class="container">
-          <div class="col-lg-11 mx-auto" id="borde">
-            <br />
-            <h2
-              class="font-italic ml-2"
-              id="fuenteTitulos"
-              class="lang"
-              key="tituloSeccion3"
-            >
-              Experiencia
-            </h2>
-            <br />
-
-            <div class="container">
-                <h5>Desarrollador de Software Freelance</h5>
-                <p class="lead text-justify">
-                    Desarrollo de una aplicacion de escritorio en <strong>Python</strong> para automatizar 
-                    la generacion de documentos a partir de plantillas de Word y archivos 
-                    Excel, utilizando la biblioteca Tkinter para la interfaz grafica. Se 
-                    implementaron funciones para la busqueda y gestion de diagnosticos 
-                    almacenados en archivos de texto, utilizados como base de datos. Esta 
-                    herramienta permitio automatizar procesos manuales, reduciendo significativamente 
-                    el tiempo dedicado a la creacion de documentos.
+            <!-- proyecto truco en Java-->
+            <div id="proyecto">
+              <div>
+                <h5>Juego truco en Java</h5>
+                <p class="lead text-left">
+                  Implementación del juego Truco en <strong>Java</strong>, utilizando <strong>RMI</strong>
+                  (Remote Method Invocation) para la comunicación entre
+                  cliente y servidor. La arquitectura sigue el patrón <strong>MVC</strong>
+                  (Modelo-Vista-Controlador), permitiendo una estructura clara
+                  y modular. Además, se emplea el patrón Observer para
+                  gestionar la interacción entre los componentes del sistema.
                 </p>
+              </div>
+              <div class="col-md-15 text-center">
+                <a href="https://youtu.be/WXbSqakTXZ4" target="_blank" id="botonProyecto">
+                  <button type="button" type="button" class="btn btn-outline-info btn-sm">
+                    Ver demo
+                  </button>
+                </a>
+                <a _ngcontent-paa-c7="" target="_blank" id="botonProyecto"
+                  href="https://github.com/LucasLatessa/Truco-java-POO-">
+                  <button _ngcontent-paa-c7="" type="button" class="btn btn-outline-info btn-sm">
+                    Ver Repositorio
+                  </button></a>
+              </div>
             </div>
 
-            <div class="container">
-              <h5>Desarrollador Full Stack Freelance</h5>
-              <p class="lead text-justify">
-                Desarrollo de una aplicacion web para calcular la distancia en
-                cuadras y el costo de delivery utilizando <strong>React</strong> para el frontend. La primera version
-                incluyo un backend en <strong>Node.js</strong>, luego reemplazado por una
-                arquitectura serverless usando <strong>Supabase</strong> como base de datos
-                <strong>PostgreSQL</strong> y autenticacion. Integracion con la <strong>API de Google
-                Maps</strong> para obtener distancias entre direcciones reales.<br>
-                Como mejora personal, incorporé autenticación de usuarios con la visión de escalar la plataforma
-                para futuros clientes, permitiendo que cada uno configure su dirección de origen y sus propias
-                tarifas de envío
-              </p>
+            <!-- proyecto codigo Pascal -->
+            <div id="proyecto">
+              <div>
+                <h5>Demostración de código</h5>
+                <p class="lead text-left">
+                  Programa que resuelve serie de Fibonacci de un número N
+                </p>
+              </div>
+              <div class="col-md-15 text-center">
+                <a _ngcontent-paa-c7="" target="_blank" id="botonProyecto"
+                  href="https://lucaslatessa.github.io/Fibonacci/">
+                  <button _ngcontent-paa-c7="" type="button" class="btn btn-outline-info btn-sm">
+                    Ver web
+                  </button></a>
+              </div>
+              <br />
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="contacto" class="py-5">
-        <div class="container">
-          <div class="container">
-            <h2
-              class="CD font-italic ml-2 text"
-              id="fuenteTitulos"
-              class="lang"
-              key="tituloSeccion4"
-            >
-              Contacto
-            </h2>
-            <hr id="linea" />
-            <div class="mx-auto">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 m-0">
-                <div class="col" id="contactRow1">
-                  <div>
-                    <svg
-                      width="4em"
-                      height="4em"
-                      viewBox="0 0 16 16"
-                      class="bi bi-envelope-fill mx-auto d-block"
-                      fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"
-                      />
-                    </svg>
-                  </div>
-                  <div class="text-center mt-3">
-                    <a
-                      class="text-light text-decoration-none font-italic"
-                      href="mailto:lucaslatessa@gmail.com"
-                      >lucaslatessa@gmail.com</a
-                    >
-                  </div>
-                </div>
-                <div class="col" id="contactRow1">
-                  <div class="container">
-                    <svg
-                      width="4em"
-                      height="4em"
-                      viewBox="0 0 16 16"
-                      class="bi bi-phone-fill mx-auto d-block"
-                      fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
-                      />
-                    </svg>
-                  </div>
-                  <div class="text-center mt-3">
-                    <a
-                      class="text-light text-center text-decoration-none font-italic"
-                    >
-                      +54 9 (2346-680861)</a
-                    >
-                  </div>
-                </div>
-                <div class="col" id="contactRow1">
-                  <div class="container">
-                    <svg
-                      width="4em"
-                      height="4em"
-                      viewBox="0 0 16 16"
-                      class="bi bi-people-fill mx-auto d-block"
-                      fill="currentColor"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"
-                      />
-                    </svg>
-                  </div>
-                  <div class="text-center mt-3">
-                    <a
-                      class="text-light text-decoration-none font-italic"
-                      href="https://www.linkedin.com/in/lucas-latessa/"
-                      target="_blank"
-                      ><strong>Linkedin</strong> / Lucas-Latessa</a
-                    >
-                  </div>
-                </div>
-                <div class="col" id="contactRow">
-                  <div class="container">
-                    <img
-                      src="imagenes/github.png"
-                      class="card-img"
-                      id="github"
-                    />
-                  </div>
-                  <div class="text-center mt-3">
-                    <a
-                      class="text-light text-decoration-none font-italic"
-                      href="https://github.com/LucasLatessa"
-                      target="_blank"
-                      ><strong>Github</strong> / LucasLatessa</a
-                    >
-                  </div>
-                </div>
+    <section id="certificados" class="py-5">
+      <div class="container">
+        <div class="col-lg-11 mx-auto" id="borde">
+          <br />
+          <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion2">
+            Certificados
+          </h2>
+          <br />
+          <div class="row">
+            <div class="container">
+              <div class="container">
+                <ul _ngcontent-paa-c8="" id="items">
+                  <li _ngcontent-paa-c8="">Perfil Web Full Stack Junior</li>
+                  <a _ngcontent-paa-c8="" target="_blank" href="certificados/Certificado_YoProgramo.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                  <li _ngcontent-paa-c8="" class="mt-2">
+                    Curso de Spring Framework y Spring Boot
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank" href="certificados/Certificado_Spring.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                  <li _ngcontent-paa-c8="" class="mt-2">
+                    Curso Profesional de Docker
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank" href="certificados/Certificado_Docker.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                  <li _ngcontent-paa-c8="" class="mt-2">
+                    Curso Profesional de React
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank" href="certificados/Certificado_React.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                  <li _ngcontent-paa-c8="" class="mt-2">
+                    Curso Profesional de Laravel
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank" href="certificados/Certificado_Laravel.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                  <li _ngcontent-paa-c8="" class="mt-2">
+                    Curso Placas Arduino
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank" href="certificados/Certificado_Arduino.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                  <li _ngcontent-paa-c8="" class="mt-2">
+                    Ingles Elemental (Nivel MCRL: A1+)
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank" href="certificados/Ingles_Elemental.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                  <li _ngcontent-paa-c8="" class="mt-2">
+                    Introducción a las Técnicas de Desarrollo Dirigido por
+                    Pruebas
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank" href="certificados/Certificado_Introducción_a_TDD.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                  <li _ngcontent-paa-c8="">
+                    Una experiencia con Internet de las Cosas y el protocolo
+                    MQTT
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank"
+                    href="certificados/Certificado_Una_experiencia_con_Internet.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+
+                  <li _ngcontent-paa-c8="" class="mt-2">
+                    Análisis Automático de redes sociales
+                  </li>
+                  <a _ngcontent-paa-c8="" target="_blank"
+                    href="certificados/Certificado_Análisis_Automático_de_redes_sociales.pdf">
+                    <button _ngcontent-paa-c8="" type="button" class="btn btn-outline-info btn-sm">
+                      Ver certificado
+                    </button></a>
+                </ul>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="educacion" class="py-5">
+      <div class="container">
+        <div class="col-lg-11 mx-auto" id="borde">
+          <br />
+          <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion3">
+            Educacion
+          </h2>
+          <br />
+          <div class="container">
+            <h5>Bachiller en economía y administración(2014-2020)</h5>
+            <p class="lead text-justify">
+              Estudios a nivel secundario realizados en el Instituto Integral
+              Católico, Chivilcoy, Buenos Aires, Argentina.
+            </p>
+          </div>
+          <div class="container">
+            <h5>Licenciatura en Sistemas de Información (2021-<span id="currentYear"></span>)</h5>
+            <p class="lead text-justify">
+              Actualmente estudio en la Universidad Nacional de Lujan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experiencia" class="py-5">
+      <div class="container">
+        <div class="col-lg-11 mx-auto" id="borde">
+          <br />
+          <h2 class="font-italic ml-2" id="fuenteTitulos" class="lang" key="tituloSeccion3">
+            Experiencia
+          </h2>
           <br />
 
-          <div class="text-center py-2">
-            <div class="btn-group" role="group" aria-label="Basic example">
-              <a
-                target="_blank"
-                href="certificados/Curriculum Lucas Latessa.pdf"
-              >
-                <button type="button" class="btn btn-secondary">
-                  Curriculum Vitae (CV)
-                </button>
-              </a>
+          <div class="container">
+            <h5>Desarrollador de Software Freelance</h5>
+            <p class="lead text-justify">
+              Desarrollo de una aplicacion de escritorio en <strong>Python</strong> para automatizar
+              la generacion de documentos a partir de plantillas de Word y archivos
+              Excel, utilizando la biblioteca Tkinter para la interfaz grafica. Se
+              implementaron funciones para la busqueda y gestion de diagnosticos
+              almacenados en archivos de texto, utilizados como base de datos. Esta
+              herramienta permitio automatizar procesos manuales, reduciendo significativamente
+              el tiempo dedicado a la creacion de documentos.
+            </p>
+          </div>
+
+          <div class="container">
+            <h5>Desarrollador Full Stack Freelance</h5>
+            <p class="lead text-justify">
+              Desarrollo de una aplicacion web para calcular la distancia en
+              cuadras y el costo de delivery utilizando <strong>React</strong> para el frontend. La primera version
+              incluyo un backend en <strong>Node.js</strong>, luego reemplazado por una
+              arquitectura serverless usando <strong>Supabase</strong> como base de datos
+              <strong>PostgreSQL</strong> y autenticacion. Integracion con la <strong>API de Google
+                Maps</strong> para obtener distancias entre direcciones reales.<br>
+              Como mejora personal, incorporé autenticación de usuarios con la visión de escalar la plataforma
+              para futuros clientes, permitiendo que cada uno configure su dirección de origen y sus propias
+              tarifas de envío
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <div class="container">
+          <h2 class="CD font-italic ml-2 text" id="fuenteTitulos" class="lang" key="tituloSeccion4">
+            Contacto
+          </h2>
+          <hr id="linea" />
+          <div class="mx-auto">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 m-0">
+              <div class="col" id="contactRow1">
+                <div>
+                  <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-envelope-fill mx-auto d-block"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
+                  </svg>
+                </div>
+                <div class="text-center mt-3">
+                  <a class="text-light text-decoration-none font-italic"
+                    href="mailto:lucaslatessa@gmail.com">lucaslatessa@gmail.com</a>
+                </div>
+              </div>
+              <div class="col" id="contactRow1">
+                <div class="container">
+                  <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-phone-fill mx-auto d-block"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                  </svg>
+                </div>
+                <div class="text-center mt-3">
+                  <a class="text-light text-center text-decoration-none font-italic">
+                    +54 9 (2346-680861)</a>
+                </div>
+              </div>
+              <div class="col" id="contactRow1">
+                <div class="container">
+                  <svg width="4em" height="4em" viewBox="0 0 16 16" class="bi bi-people-fill mx-auto d-block"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                  </svg>
+                </div>
+                <div class="text-center mt-3">
+                  <a class="text-light text-decoration-none font-italic"
+                    href="https://www.linkedin.com/in/lucas-latessa/" target="_blank"><strong>Linkedin</strong> /
+                    Lucas-Latessa</a>
+                </div>
+              </div>
+              <div class="col" id="contactRow">
+                <div class="container">
+                  <img src="imagenes/github.png" class="card-img" id="github" />
+                </div>
+                <div class="text-center mt-3">
+                  <a class="text-light text-decoration-none font-italic" href="https://github.com/LucasLatessa"
+                    target="_blank"><strong>Github</strong> / LucasLatessa</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+        <br />
 
-      <footer class="py-5 footer">
-        <div class="container">
-          <p class="m-0 text-center text-white">
-            <em
-              >Copyright LUCAS LATESSA - ©<span id="currentYear"></span>. Todos los derechos
-              reservados.</em
-            >
-          </p>
+        <div class="text-center py-2">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <a target="_blank" href="certificados/Curriculum Lucas Latessa.pdf">
+              <button type="button" class="btn btn-secondary">
+                Curriculum Vitae (CV)
+              </button>
+            </a>
+          </div>
         </div>
-      </footer>
+      </div>
+    </section>
 
-      <script
-        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
-      ></script>
-    </div>
+    <footer class="py-5 footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          <em>Copyright LUCAS LATESSA - ©<span id="currentYearFooter"></span>. Todos los derechos
+            reservados.</em>
+        </p>
+      </div>
+    </footer>
 
-    <!-- importamos la libreria para los efectos de movimiento-->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     </script>
-  </body>
+    <script>
+      const year = new Date().getFullYear();
+      // Educación
+      const eduYear = document.querySelector('#educacion #currentYear');
+      if (eduYear) eduYear.textContent = year;
+      // Footer
+      const footerYear = document.getElementById('currentYearFooter');
+      if (footerYear) footerYear.textContent = year;
+    </script>
+  </div>
+
+  <!-- importamos la libreria para los efectos de movimiento-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
 </html>
