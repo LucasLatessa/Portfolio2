@@ -572,7 +572,7 @@
               </p>
             </div>
             <div class="container">
-              <h5>Licenciatura en Sistemas de Información(2021-2023)</h5>
+              <h5>Licenciatura en Sistemas de Información (2021-<span id="currentYear"></span>)</h5>
               <p class="lead text-justify">
                 Actualmente estudio en la Universidad Nacional de Lujan.
               </p>
@@ -753,7 +753,7 @@
         <div class="container">
           <p class="m-0 text-center text-white">
             <em
-              >Copyright LUCAS LATESSA - ©2023. Todos los derechos
+              >Copyright LUCAS LATESSA - ©<span id="currentYear"></span>. Todos los derechos
               reservados.</em
             >
           </p>
@@ -764,6 +764,7 @@
         src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
       ></script>
     </div>
 
